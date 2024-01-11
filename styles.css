@@ -1,0 +1,59 @@
+#principal {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    color: orange;
+    font-size: 3em;
+    margin: auto;
+    padding: 1em;
+}
+
+.title2 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    background-color: orange;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#noticias-container {
+    margin: auto;
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+}
+
+.nota {
+    font-family: 'Arial', sans-serif;
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+    border: 2px solid green ;
+    border-radius: 10px;
+}
+
+.nota:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+.tituloNota:hover {
+    color: rgb(170, 4, 4);
+}
+
+.imagen {
+    width: 20px;
+    margin-left: 1em;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
